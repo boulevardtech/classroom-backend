@@ -1,0 +1,33 @@
+{
+  "name": "classroom-backend",
+  "version": "1.0.0",
+  "description": "Backend service for classroom management system",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["classroom", "backend", "education"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.40.0",
+    "jest": "^29.5.0",
+    "@types/jest": "^29.5.1",
+    "ts-jest": "^29.1.0"
+  }
+}
